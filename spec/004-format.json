@@ -1,0 +1,121 @@
+[{
+  "name": "市外局番(2桁)",
+  "input": "0398765432",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "(03)9876-5432"
+  }
+}, {
+  "name": "市外局番(3桁)",
+  "input": "0459876543",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "(045)987-6543"
+  }
+}, {
+  "name": "市外局番(4桁)",
+  "input": "0422987654",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "(0422)98-7654"
+  }
+}, {
+  "name": "市外局番(5桁)",
+  "input": "0996998765",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "(09969)9-8765"
+  }
+}, {
+  "name": "携帯電話・ＰＨＳ番号（０７０－ＣＤＥ－ＦＧＨＪＫ）",
+  "input": "07098765432",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "070-987-65432"
+  }
+}, {
+  "name": "携帯電話・ＰＨＳ番号（０８０－ＣＤＥ－ＦＧＨＪＫ）",
+  "input": "08098765432",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "080-987-65432"
+  }
+}, {
+  "name": "携帯電話・ＰＨＳ番号（０９０－ＣＤＥ－ＦＧＨＪＫ）",
+  "input": "09098765432",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "090-987-65432"
+  }
+}, {
+  "name": "Ｍ２Ｍ等専用番号（０２０－ＣＤＥ－ＦＧＨＪＫ）",
+  "input": "02098765432",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "020-987-65432"
+  }
+}, {
+  "name": "発信者課金ポケベル電話番号（０２０－４ＤＥ－ＦＧＨＪＫ）",
+  "input": "02048765432",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "020-487-65432"
+  }
+}, {
+  "name": "ＦＭＣ用電話番号（０６００－ＤＥＦ－××××）",
+  "input": "06008765432",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "0600-876-5432"
+  }
+}, {
+  "name": "ＩＰ電話の番号（０５０－ＣＤＥＦ－××××）",
+  "input": "0508765432",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "050-8765-432"
+  }
+}, {
+  "name": "着信課金用電話番号（０１２０－ＤＥＦ－×××）",
+  "input": "01209876543",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "0120-987-6543"
+  }
+}, {
+  "name": "着信課金用電話番号（０８００－ＤＥＦ－××××）",
+  "input": "08009876543",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "0800-987-6543"
+  }
+}, {
+  "name": "情報料代理徴収機能用電話番号（０９９０－ＤＥＦ－×××）",
+  "input": "09909876543",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "0990-987-6543"
+  }
+}, {
+  "name": "統一番号（０５７０－ＤＥF－×××）",
+  "input": "05709876543",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "0570-987-6543"
+  }
+}]

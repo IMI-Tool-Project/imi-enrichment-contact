@@ -1,0 +1,35 @@
+{
+  "name": "imi-enrichment-contact",
+  "version": "1.0.0",
+  "description": "ic:連絡先型の正規化",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha",
+    "browser": "rollup -c",
+    "start": "node bin/server.js 8080"
+  },
+  "bin": "bin/cli.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "imi"
+  ],
+  "author": "IMI Tool Project",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.0",
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-json": "^4.0.1",
+    "@rollup/plugin-node-resolve": "^6.1.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "node-fetch": "^2.6.0",
+    "rollup": "^1.28.0"
+  },
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^6.1.0"
+  }
+}

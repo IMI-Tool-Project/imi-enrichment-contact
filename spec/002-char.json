@@ -1,0 +1,41 @@
+[{
+  "name": "半角数字",
+  "input": "0352352111",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "(03)5235-2111"
+  }
+}, {
+  "name": "全角数字",
+  "input": "０３５２３５２１１１",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "(03)5235-2111"
+  }
+}, {
+  "name": "漢数字",
+  "input": "〇三五二三五二一一一",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "(03)5235-2111"
+  }
+}, {
+  "name": "半角記号",
+  "input": "+81,(03)-5253-2111",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "+81,(03)-5253-2111"
+  }
+}, {
+  "name": "全角記号",
+  "input": "＋８１、（０３）ー５２５３ー２１１１",
+  "output": {
+    "@context": "https://imi.go.jp/ns/core/context.jsonld",
+    "@type": "連絡先型",
+    "電話番号": "+81,(03)-5253-2111"
+  }
+}]
