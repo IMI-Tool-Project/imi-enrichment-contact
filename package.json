@@ -24,8 +24,8 @@
     "@rollup/plugin-json": "^4.0.1",
     "@rollup/plugin-node-resolve": "^6.1.0",
     "chai": "^4.2.0",
-    "mocha": "^6.2.3",
-    "node-fetch": "^2.6.0",
+    "mocha": "^8.2.1",
+    "node-fetch": "^2.6.1",
     "rollup": "^1.28.0"
   },
   "dependencies": {
