@@ -89,25 +89,22 @@
 
 # 利用者向け情報
 
-以下の手順はパッケージアーカイブ `imi-enrichment-contact-1.0.0.tgz` を用いて実行します。
-
 ## インストール
 
 以下の手順でインストールします。
 
 ```
-$ npm install imi-enrichment-contact-1.0.0.tgz
+$ npm install IMI-Tool-Project/imi-enrichment-contact
 ```
 
 ## コマンドラインインターフェイス
 
-`imi-enrichment-contact-1.0.0.tgz` にはコマンドラインインターフェイスが同梱されており、
 通常はインストールすると `imi-enrichment-contact` コマンドが使用できるようになります。
 
 コマンドラインインターフェイスのファイルの実体は `bin/cli.js` です。
 
 ```
-$ npm install imi-enrichment-contact-1.0.0.tgz
+$ npm install IMI-Tool-Project/imi-enrichment-contact
 
 # ヘルプの表示
 $ imi-enrichment-contact -h
@@ -126,12 +123,12 @@ $ imi-enrichment-contact -s 0398765432 > output.json
 または `npx` を使って以下のようにインストールせずに実行することも可能です。
 
 ```
-$ npx imi-enrichment-contact-1.0.0.tgz -s 0398765432
+$ npx IMI-Tool-Project/imi-enrichment-contact -s 0398765432
 ```
 
 ## Web API
 
-`imi-enrichment-contact-1.0.0.tgz` には Web API を提供するサーバプログラムが同梱されています。
+Web API を提供するサーバプログラムが同梱されています。
 
 ### サーバの起動方法
 
@@ -139,7 +136,7 @@ $ npx imi-enrichment-contact-1.0.0.tgz -s 0398765432
 以下のように `bin/server.js` を実行することで起動できます。
 
 ```
-$ npm install imi-enrichment-contact-1.0.0.tgz
+$ npm install IMI-Tool-Project/imi-enrichment-contact
 $ node node_modules/imi-enrichment-contact/bin/server.js
 Usage: node server.js [port number]
 
@@ -197,16 +194,13 @@ console.log(convert("0398765432(代表)"));
 
 # 開発者向け情報
 
-以下の手順はソースコードアーカイブ `imi-enrichment-contact-1.0.0.src.tgz` を用いて実行します。
-
 ## 環境構築
 
 以下の手順で環境を構築します。
 
 ```
-$ mkdir imi-enrichment-contact
+$ git clone https://github.com/IMI-Tool-Project/imi-enrichment-contact.git
 $ cd imi-enrichment-contact
-$ tar xvzf /tmp/imi-enrichment-contact-1.0.0.src.tgz
 $ npm install
 ```
 
@@ -222,7 +216,7 @@ $ npm test
 
 ## ブラウザビルド(参考情報)
 
-以下の手順を実行するとブラウザで動作する Javascript `dist/imi-enrichment-contact.js` が生成されます。
+以下の手順を実行するとブラウザで動作する JavaScript `dist/imi-enrichment-contact.js` が生成されます。
 
 ```
 $ cd imi-enrichment-contact
